@@ -1,0 +1,11 @@
+name: ValueEvent
+version: '1.0'
+main: me.trumbo.valueevent.ValueEvent
+api-version: '1.16'
+commands:
+  ve:
+    usage: '/ve [start|stop|reload|join]'
+    aliases: ['valueevent']
+    permission: 'valueevent.admin'
+libraries:
+  - net.kyori:adventure-text-minimessage:4.19.0
